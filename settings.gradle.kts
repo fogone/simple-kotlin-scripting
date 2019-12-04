@@ -1,2 +1,2 @@
-rootProject.name = "simple-scripting-project"
+rootProject.name = "simple-kotlin-scripting"
 
