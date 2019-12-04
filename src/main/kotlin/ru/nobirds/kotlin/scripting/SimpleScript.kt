@@ -11,7 +11,13 @@ import kotlin.script.experimental.jvm.jvm
 @KotlinScript(displayName = "Simple script",
     fileExtension = "simple.kts",
     compilationConfiguration = SimpleScriptConfiguration::class)
-abstract class SimpleScript
+abstract class SimpleScript {
+
+    fun simpleMethodToTest() {
+        // do nothing
+    }
+
+}
 
 object SimpleScriptConfiguration : ScriptCompilationConfiguration({
     defaultImports(

@@ -18,6 +18,15 @@ dependencies {
     testImplementation("junit:junit:4.12")
 }
 
+
+java {
+    sourceSets {
+        main {
+            resources.srcDir("${projectDir}/scripts")
+        }
+    }
+}
+
 tasks {
     compileKotlin {
         kotlinOptions.jvmTarget = "1.8"

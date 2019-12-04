@@ -8,11 +8,14 @@ class SimpleBuilder {
         this.items.add(item)
     }
 
+    fun thisIsLongMethodToFind() {
+    }
+
     fun build() = SimpleModel(items)
 
 }
 
 
-fun SimpleBuilder.item(text: String) {
+fun SimpleBuilder.textItem(text: String) {
     item(SimpleItem(text))
 }

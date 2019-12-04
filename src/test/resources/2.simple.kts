@@ -1,6 +1,6 @@
 
 fun SimpleBuilder.addDefaultItems() {
-    item("test1")
-    item("test2")
-    item("test3")
+    textItem("test1")
+    textItem("test2")
+    textItem("test3")
 }
